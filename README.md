@@ -136,27 +136,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## Contact
-
-For any queries or suggestions, feel free to reach out:
-
-- **Name:** [Your Name]
-- **LinkedIn:** [Your LinkedIn Profile URL]
-- **Email:** [Your Email Address]
-```
-
----
-
-### Steps to Add Screenshots
-1. Create a folder named `screenshots` inside your project directory.
-2. Add relevant screenshots for `home_page.png`, `add_bike.png`, and `edit_bike.png`.
-3. Ensure the images are clear and showcase your application's features.
-
----
-
-### Why Use This README?
-- **Professional Presentation:** The README is structured and detailed, making it suitable for LinkedIn or GitHub.
-- **Ease of Understanding:** Clear steps for installation and usage help users replicate the project.
-- **Future Enhancements:** Provides a vision for further improvements, showing the scalability of your project.
-
-Let me know if you need further assistance! 🚀
