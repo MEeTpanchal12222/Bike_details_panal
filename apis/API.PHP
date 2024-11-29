@@ -1,5 +1,5 @@
 <?php
-header("Content-Type: application/json");
+header("Content-Type: multipart/form-data");
 
 $conn = new mysqli('localhost', 'root', '', 'bikes');
 
@@ -27,7 +27,7 @@ switch ($method) {
     
             if (in_array(strtolower($imageExtension), $allowedExtensions)) {
                 $imageNewName = uniqid('bike_', true) . '.' . $imageExtension;
-                $uploadDir = 'uploads/';
+                $uploadDir = 'D:/xampp/htdocs/Bike_details_panal/uploads/';
                 $uploadFilePath = $uploadDir . $imageNewName;
     
                 if (move_uploaded_file($imageTmpPath, $uploadFilePath)) {
@@ -54,6 +54,7 @@ switch ($method) {
         if (isset($_GET['id'])) {
             $id = intval($_GET['id']);
             $query = "SELECT * FROM bikes WHERE id = $id";
+        
         } else {
             $query = "SELECT * FROM bikes";
         }
